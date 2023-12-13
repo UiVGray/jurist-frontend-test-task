@@ -94,11 +94,6 @@ function login() {
   formContainer.classList.remove("active");
 };
 
-function openMessage() {
-  successMessage.classList.add("active");                      //<---------------------DELET THIS
-  wrapper.classList.remove("show");
-}
-
 function closeMessage(message) {
   message.classList.remove("active");
 }
